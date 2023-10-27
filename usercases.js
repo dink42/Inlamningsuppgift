@@ -1,4 +1,5 @@
 // Function used with RegEx to see if password match the criterias.
+
 function checkCredentials(password) {
 
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&]){8,}/;
@@ -6,6 +7,7 @@ function checkCredentials(password) {
 }
 
 // Exporting function module, to be able to use it in another file.
+
 module.exports = checkCredentials;
 
 
